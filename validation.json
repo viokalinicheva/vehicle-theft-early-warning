@@ -1,0 +1,111 @@
+{
+  "status": "clean_kernel_verified",
+  "validated_on": "2026-10-28",
+  "R": "R version 4.5.2 (2025-10-31)",
+  "packages": {
+    "readxl": "1.4.5",
+    "jsonlite": "2.0.0",
+    "digest": "0.6.39",
+    "ggplot2": "4.0.1"
+  },
+  "sources_retrieved_on": "2026-10-28",
+  "sources": [
+    "https://usafacts.org/articles/car-thefts/",
+    "https://www.nhtsa.gov/press-releases/hyundai-kia-campaign-prevent-vehicle-theft",
+    "https://docs.google.com/spreadsheets/d/1-6614t_Ata5k7oESrm-HAdF1uOe8aPGRaQECl44GYeE/edit"
+  ],
+  "metrics": {
+    "source_sha256": {
+      "KiaHyundaiMilwaukeeData.csv": "290ddf0526eafb7f1a965f44fa4d532ca54a639374b8fa2c5697ced1339d26ed",
+      "kiaHyundaiThefts.csv": "c353f8e542427e49b34b763d9e0bab0f4813ae3b980f8f4eda38cd387284bdc6",
+      "carTheftsMap.csv": "ff9491969cab437c0b205f70cd18685d8e5cc820b5e7eefe1605fb903592a1f9",
+      "Motherboard VICE News Kia Hyundai Theft Data.xlsx": "ce276b8b9d2a8a43fbc1c7124c721e6d7029cd952e1dd9afab4508458a1dc33a"
+    },
+    "milwaukee_rows": 48,
+    "multicity_rows": 552,
+    "multicity_cities": 13,
+    "agency_rows": 556,
+    "vice_workbook_rows": 47,
+    "vice_workbook_columns": 211,
+    "vice_long_rows": 3150,
+    "vice_locations": 70,
+    "vice_missing_both_counts": 69,
+    "vice_zero_totals": 1,
+    "vice_percentage_mismatches": 42,
+    "vice_percentage_mismatch_locations": {
+      "Los Angeles, CA": 42
+    },
+    "agency_missing_2019": 0,
+    "agency_missing_2022": 0,
+    "monthly_exact_duplicates": 0,
+    "vice_location_month_duplicates": 0,
+    "complete_cities": [
+      "Atlanta",
+      "Baltimore",
+      "Chicago",
+      "Dayton",
+      "Louisville",
+      "Omaha",
+      "Portland",
+      "Rochester",
+      "Seattle"
+    ],
+    "complete_cities_n": 9,
+    "complete_city_months": 432,
+    "milwaukee_2019_thefts": 207,
+    "milwaukee_2019_share_pct": 5.93463302752294,
+    "milwaukee_2021_thefts": 6971,
+    "milwaukee_2021_share_pct": 66.5298721129987,
+    "complete_cities_2021_thefts": 2315,
+    "complete_cities_2022_thefts": 12592,
+    "complete_cities_growth_pct": 443.930885529158,
+    "cities_with_increase": 9,
+    "chicago_contribution_pct": 58.8790503065097,
+    "vice_complete_2022_locations": 64,
+    "vice_locations_at_least_10pct": 27,
+    "vice_locations_above_20pct": 11,
+    "agency_paired_positive_baseline_n": 556,
+    "agency_increases_n": 444,
+    "agency_median_change_pct": 38.7992831541219
+  },
+  "clean_notebook_run": {
+    "executed_code_cells": 8,
+    "error_outputs": 0,
+    "embedded_figures": 5,
+    "notebook_sha256": "a8aac576962e71aff89a5417baf7dccc39b98c2652b5be051ef02dfec40251ed",
+    "analysis_sha256": "7f1dffd6d7c65b4f458cef63356a51a0954cad053296ebb639fc3a948ad71ae8"
+  },
+  "original_notebook": {
+    "name": "Violetta_Kalinicheva_Week5_and_6.ipynb",
+    "sha256": "b5d19d3e5e5bfb9b068477d2e1222ea5274b34a713a072a1a3273a2611c0b836",
+    "preserved": true
+  },
+  "release_checks": {
+    "executed_code_cells": 8,
+    "embedded_figures": 5,
+    "source_files_modified": false,
+    "raw_data_in_release": false,
+    "root_files": [
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "analysis.R",
+      "renv.lock",
+      "run.R",
+      "validation.json",
+      "vehicle_theft_early_warning.ipynb"
+    ]
+  },
+  "source_download_verification": {
+    "date": "2026-10-28",
+    "three_csv_files_byte_identical_to_original": true,
+    "vice_publisher_export_status": 200,
+    "vice_Data_sheet_compared_shape": [
+      47,
+      211
+    ],
+    "vice_Data_sheet_differing_cells": 0,
+    "clean_run_used_fresh_downloads": true,
+    "vice_export_url": "https://docs.google.com/spreadsheets/d/1-6614t_Ata5k7oESrm-HAdF1uOe8aPGRaQECl44GYeE/export?format=xlsx"
+  }
+}
